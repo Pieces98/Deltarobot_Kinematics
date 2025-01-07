@@ -1,10 +1,10 @@
 # Deltarobot_Kinematics
 
-## References
-- [The Delta Parallel Robot: Kinematics Solutions](https://people.ohio.edu/williams/html/PDF/DeltaKin.pdf)
-- [Reliable computation of the points of intersection of spheres](https://journal.austms.org.au/ojs/index.php/ANZIAMJ/article/view/608/476)
-
-(Files are available in *assets* directory)
+<p align="center">
+<img src="./assets/Delta_Rev_IPK_Solution_MV_animation1.gif" width=35%>
+<img src="./assets/Delta_Rev_FPK_Solution_MV_animation.gif" width=35%>
+<img src="./assets/delta_robot.gif" width="25%">
+</p>
 
 ## Environment
 - Python 3.7
@@ -32,7 +32,7 @@ sideP = 76                          #Set platform length
 `sideP` : 삼각형 플랫폼의 한변의 길이(Length of one side of a triangle platform)
 
 
-## Files
+## Contents
 - Forward Kinematics
   - [Delta_Rev_FPK_Solution_MV.py](#delta_rev_fpk_solution_mvpy)
   - [Delta_Rev_FPK_Solution_MV_animation.py](#delta_rev_fpk_solution_mv_animationpy)
@@ -198,3 +198,10 @@ File : [Delta_Pris_FPK_Solution_MV_animation.py](./Delta_Pris_FPK_Solution_MV_an
 <p align="center">
 <img src="./assets/Delta_Pris_FPK_Solution_MV_animation.gif" width=60%>
 </p>
+
+
+## References
+- [The Delta Parallel Robot: Kinematics Solutions](https://people.ohio.edu/williams/html/PDF/DeltaKin.pdf)
+- [Reliable computation of the points of intersection of spheres](https://journal.austms.org.au/ojs/index.php/ANZIAMJ/article/view/608/476)
+
+(Files are available in *assets* directory)
